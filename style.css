@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+.
+{   
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background: #000 url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: hard-light;
+
+}
+
+.container
+{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    right: 100px;
+    bottom: 80px;
+    background: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 50px 50px rgba(0,0,0, 0.5)
+                0 50px 50px rgba(0,0,0, 0.1)
+}
+
+.container h2
+{
+    text-align: center;
+    font-size: 10em;
+    line-height:1em;
+    color:rgb(203, 247, 82);
+    text-shadow: -5px 5px 2px rgba(0, 0, 0, .1);
+    margin-top: -80px;
+    transition: 0.5s;
+ 
+}
+
+.container h2:hover
+{
+    text-shadow: -1px 1px 0px rgba(0, 0, 0, 1);
+}
+
+
+.container h2 span
+{
+    display: block;
+    font-weight: 300;
+    letter-spacing: 6px;
+    font-size: 0.2em;
+
+}
+
+.countdown
+{
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.countdown div{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    margin: 0 15px;
+    font-style: 3em;
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 1);
+    font-size: 3em;
+
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 1);;
+    font-weight: 500;
+
+}
+.countdown div:before
+{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width:100% ;
+    height: 35px;
+    background: #ff0;
+    color: #333;
+    font-style: 0.35em;
+    font-size: .5em;
+    line-height: 35px;
+    font-weight: 300;
+
+}
+
+.countdown #day:before
+{
+    content: 'Days';
+}
+.countdown #hour:before
+{
+    content: 'Hours';
+}
+.countdown #minute:before
+{
+    content: 'Minutes';
+}
+.countdown #second:before
+{
+    content: 'Seconds';
+}
