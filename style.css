@@ -201,6 +201,11 @@ body
     {
     text-shadow: -1px 1px 0px rgba(0, 0, 0, 1);
     }
+     .container #text{
+        font-size: 30px;
+        text-align: center;
+        padding: 100px;
+    }
 
 
     .container h2 span
