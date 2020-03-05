@@ -143,6 +143,7 @@ body
      right:40px;
      bottom:150px;
      border-radius: 25px;
+        padding: 100px;
      
     }
     .container h2 {
@@ -180,6 +181,7 @@ body
     .container {
      left:10px;
      right:10px
+         padding: 100px;
     }
    }
    @media screen and (max-width:480px) {
@@ -188,6 +190,7 @@ body
      right:5px;
      top:80px;
      bottom:80px
+         padding: 150px;
     }
     .container h2 {
         font-size: 1.5em;
