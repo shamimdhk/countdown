@@ -11,6 +11,9 @@
         <div class="image">
             <img src="bg.jpg" alt="">
         </div>
+        <div id="text">
+            <p>হে নতুন!তোমাকে অভিবাদন জানানোর অপক্ষায় আরা </p>
+        </div>
         <h2><span>Countdown for the greates moment</span>July 2020</h2>
         <br>
         <br>
@@ -47,6 +50,19 @@
             babybirth();
         }, 1000)
        
+    </script>
+    <script type="text/javascript">
+        var i=0, text;
+        text ="বিসমিল্লাহির রাহমানুর রাহিম "
+        function typeing()
+        {
+            if(i<text.length){
+            document.getElementById("text").innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typeing,50);
+        }
+        }
+        typeing();
     </script>
 </body>
 </html>
