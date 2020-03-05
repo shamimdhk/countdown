@@ -228,8 +228,9 @@ body
     .countdown {
      margin-top:-15px
     }
-    .text{
+    #text{
         font-size: 30px;
+       }
    }
 #text{
     color:rgb(255, 254, 254);
