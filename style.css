@@ -228,11 +228,14 @@ body
     .countdown {
      margin-top:-15px
     }
+    #text{
+        font-size: 30px;
    }
 #text{
-    color:rgb(243, 52, 62);
+    color:rgb(255, 254, 254);
     font-size: 60px;
     text-align: center;
     margin-top: 300px;
     font-family: 'AdorshoLipi', Arial, sans-serif !important;
+    padding: 10px;
     }
