@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.maateen.me/adorsho-lipi/font.css');
 
 *
 {   
@@ -228,3 +229,10 @@ body
      margin-top:-15px
     }
    }
+#text{
+    color:rgb(125, 255, 73);
+    font-size: 60px;
+    text-align: center;
+    margin-top: 300px;
+    font-family: 'AdorshoLipi', Arial, sans-serif !important;
+    }
