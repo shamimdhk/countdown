@@ -211,6 +211,9 @@ body
     font-size: 1em;
 
     }
+       .container #text{
+       fontsize:30px;
+       }
 
     .countdown div {
      width:70px;
@@ -228,9 +231,7 @@ body
     .countdown {
      margin-top:-15px
     }
-    #text{
-        font-size: 30px;
-       }
+    
    }
 #text{
     color:rgb(255, 254, 254);
