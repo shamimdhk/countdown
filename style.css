@@ -9,7 +9,7 @@
 
 body
 {
-    background: #000 url(bg.jpg);
+    background: #000 url(bg.jpg) no-repeat center top;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
